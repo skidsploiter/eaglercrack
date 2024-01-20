@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,79 +42,112 @@
 </head>
 
 <body>
-  <main class="cards">
-    <h1 class="cards__heading">1.5 Clients</h1>
-    <div class="cards cards">
-      <div class="cards__inner">
-<!-- Start -->
-<div class="cards__card card">
-    <div class="card__header">
-      <h2 class="card__heading">FuchsiaX</h2>
-      <a id="Modal1" class="buttonTest"><i class="fa-solid fa-image"></i></a>
-    </div>
-    <ul role="list" class="card__bullets flow">
-      <li>Version: C.M.M's-Fuchsia-X-Client</li>
-    </ul>
-    <a href="/clients/1.5/fuchsiax.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-    <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
-  </div>  
+    <button id="myBtn">Button 1</button>
+    <button id="myBtn1">Button 2</button>
+    <button id="myBtn2">Button 3</button>
 
-  <div class="cards__card card">
-    <div class="card__header">
-      <h2 class="card__heading">FuchsiaX</h2>
-      <a id="Modal1" class="buttonTest"><i class="fa-solid fa-image"></i></a>
-    </div>
-    <ul role="list" class="card__bullets flow">
-      <li>Version: C.M.M's-Fuchsia-X-Client</li>
-    </ul>
-    <a href="/clients/1.5/fuchsiax.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-    <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
-  </div>  
-  <!-- End -->  
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Button 1 Clicked</h2>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aspernatur perferendis ad sunt.
+                    Eius, possimus? Quae at eum repudiandae obcaecati vitae accusantium, perferendis sapiente
+                    temporibus, necessitatibus voluptatem iste cumque et?</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
 
-<div id="myModal" class="modal">  
-    <div class="modal-content">
-      <div class="modal-header">
-        <span class="close">&times;</span>
-        <h2 class="h1a">Downloads For {Client}</h2>
-      </div>
-      <div class="modal-body">
-        <br>
-        <br>
-        <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
-        <br>
-        <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.5/fuchsiax.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
-        <br>
-        <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" style="margin-right: 500px;"><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
-        <br>
-      </div>
     </div>
 
-<script>
-    // credit w3schools 
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("Modal1");
-    var span = document.getElementsByClassName("close")[0];
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">
 
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Button 2 Clicked</h2>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatum ipsa cum aliquid, ex
+                    inventore, culpa obcaecati modi deleniti enim consequuntur tenetur. Earum numquam sit ratione eum
+                    sequi praesentium, unde maxime ullam iure rem mollitia perferendis eos possimus neque, nisi dicta.
+                    Obcaecati dignissimos, dolores labore rerum quisquam non explicabo repellat!</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
 
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-</script>
-
-
-      <div class="overlay cards__inner"></div>
     </div>
-  </main>
-  </body>
+
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Button 3 Clicked</h2>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium quia non laborum
+                    ea, similique ex iusto minus obcaecati optio sapiente aut eveniet porro odio veniam excepturi
+                    facilis iste fuga? Porro atque odio, fuga blanditiis voluptate ducimus veritatis id ea possimus?
+                    Facilis tempore officiis quos assumenda dolorem placeat sed veniam dolor eveniet magnam. Iure ullam
+                    odit qui, magni suscipit pariatur nesciunt temporibus aspernatur doloribus quis nobis quas esse
+                    perspiciatis, asperiores eum quidem placeat minus alias veniam molestias sit. Ipsam numquam,
+                    sapiente facere voluptatem eum, maiores blanditiis cupiditate corporis quos ratione, quia
+                    praesentium dolore nihil voluptatum impedit quae consequatur sit pariatur.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var datamap = new Map([
+            [document.getElementById("myBtn"), document.getElementById("myModal")],
+            [document.getElementById("myBtn1"), document.getElementById("myModal1")],
+            [document.getElementById("myBtn2"), document.getElementById("myModal2")]
+        ]);
+
+        datamap.forEach((value, key) => {
+            doModal(key, value);
+        });
+
+        function doModal(anchor, popupbox) {
+
+            // Get the <span> element that closes the modal
+            var span = popupbox.getElementsByClassName("close")[0];
+
+            anchor.addEventListener("click", function (event) {
+                popupbox.style.display = "block";
+            });
+
+            span.addEventListener("click", function (event) {
+                popupbox.style.display = "none";
+            });
+
+            window.addEventListener("click", function (event) {
+                if (event.target == popupbox) {
+                    popupbox.style.display = "none";
+                }
+            });
+        }
+    </script>
+
+</body>
+
 </html>

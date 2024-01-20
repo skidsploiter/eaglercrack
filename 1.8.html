@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,17 +35,17 @@
       
       <div style="margin: 0 30px 0 0;">
           <a class="button" href="https://discord.gg/qAbTAAv6dU">
-            <i class="fa-brands fa-discord"></i>&nbspJoin the Discord
+            <i class="fa-brands fa-discord"></i>&nbsp Join the Discord
           </a>
       </div>
   </nav>
 </head>
 
 <body>
-<main class="cards">
-  <h1 class="cards__heading">1.8 Clients</h1>
-  <div class="cards cards">
-    <div class="cards__inner">
+  <main class="cards">
+    <h1 class="cards__heading">1.8 Clients</h1>
+    <div class="cards cards">
+      <div class="cards__inner">
       <!-- Start -->
       <div class="cards__card card">
         <h2 class="card__heading">DragonX</h2>
@@ -52,7 +53,7 @@
           <li>Version: DragonX V4</li>
         </ul>
         <a href="/clients/1.8/DragonX_V4.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-        <a href="/clients/1.8/DragonX_V4.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+        <a id="myBtn1" class="card__cta cta"><i class="fa-solid fa-download"></i>&nbsp Download</a>
       </div>
 
       <div class="cards__card card">
@@ -61,7 +62,7 @@
           <li>Version: Kone Client 1.8</li>
         </ul>
         <a href="/clients/1.8/Koneclient/index.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-        <a href="/clients/1.8/Koneclient/index.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+        <a id="myBtn2" class="card__cta cta"><i class="fa-solid fa-download"></i>&nbsp Download</a>
       </div>
 
       <div class="cards__card card">
@@ -70,7 +71,7 @@
           <li>Version: first release </li>
         </ul>
         <a href="/clients/1.8/PiClient.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-        <a href="/clients/1.8/PiClient.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+        <a id="myBtn3" class="card__cta cta"><i class="fa-solid fa-download"></i>&nbsp Download</a>
       </div>
 
       <div class="cards__card card">
@@ -79,7 +80,7 @@
           <li>Version: UwU Client B2</li>
         </ul>
         <a href="/clients/1.8/UwUclientB2.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-        <a href="/clients/1.8/UwUclientB2.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+        <a id="myBtn4" class="card__cta cta"><i class="fa-solid fa-download"></i>&nbsp Download</a>
       </div>
       
       <div class="cards__card card">
@@ -88,7 +89,7 @@
           <li>Version: Shadow Client 3.0 Beta</li>
         </ul>
         <a href="/clients/1.8/ShadowClient30Beta.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-        <a href="/clients/1.8/ShadowClient30Beta.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+        <a id="myBtn5" class="card__cta cta"><i class="fa-solid fa-download"></i>&nbsp Download</a>
       </div>
 
       <div class="cards__card card">
@@ -97,7 +98,7 @@
           <li>Version: 3.8</li>
         </ul>
         <a href="/clients/1.8/Resent_3.8.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-        <a href="/clients/1.8/Resent_3.8.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+        <a id="myBtn6" class="card__cta cta"><i class="fa-solid fa-download"></i>&nbsp Download</a>
       </div>
 
       <div class="cards__card card">
@@ -106,11 +107,194 @@
           <li>Version: Most recent</li>
         </ul>
         <a href="/clients/1.8/EaglercraftX.html" class="card__cta cta"><i class="fa-solid fa-play"></i>&nbsp Play</a>
-        <a href="/clients/1.8/EaglercraftX.html" class="card__cta cta" download><i class="fa-solid fa-download"></i>&nbsp Download</a>
+        <a id="myBtn7" class="card__cta cta"><i class="fa-solid fa-download"></i>&nbsp Download</a>
       </div>
-          <!-- End -->
-    <div class="overlay cards__inner"></div>
-  </div>
-</main>
+      <!-- End -->
+            <div class="overlay cards__inner"></div>
+          </div>
+        </main>
+
+
+    <!--Start Modals    -->
+    
+    <div id="myModal1" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Downloads for DragonX V4</h2>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1ntytXfQ-tbWVeVCBmt_I4sc9CJ6kKqJB/view?usp=sharing" target=”_blank” class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+                <br>
+                <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.5/fuchsiax.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+                <br>
+                <a href="/clients/1.8/DragonX_V4.html" class="card__cta cta" style="margin-right: 500px;" download><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Downloads for Kone Client</h2>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+                <a href="https://drive.google.com/drive/folders/1Y38en1577785hWJTiXu4KblkxxGMSrxS?usp=sharing" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+                <br>
+                <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.5/fuchsiax.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+                <br>
+                <a href="/clients/1.5/fuchsiax.html" class="card__cta cta" style="margin-right: 500px;" download><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal3" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Downloads for PiClient V1</h2>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1IlEfwRLvV05z3jUvHHKA3-jJKR6DpF4u/view?usp=sharing" target=”_blank” class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+                <br>
+                <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.8/PiClient.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+                <br>
+                <a href="/clients/1.8/PiClient.html" class="card__cta cta" style="margin-right: 500px;" download><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal4" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Downloads for UwU Client B2</h2>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1Kh_6AItRGC_x52b4rkUDzFhPbmPev3s8/view?usp=sharing" target=”_blank” class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+                <br>
+                <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.8/UwUclientB2.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+                <br>
+                <a href="/clients/1.8/UwUclientB2.html" class="card__cta cta" style="margin-right: 500px;" download><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal5" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Downloads for Shadow Client 3.0</h2>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1KtYcVLU0X2IfxCI8vEjQ_PoO-gTR9od3/view?usp=sharing" target=”_blank” class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+                <br>
+                <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.8/ShadowClient30Beta.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+                <br>
+                <a href="/clients/1.8/ShadowClient30Beta.html" class="card__cta cta" style="margin-right: 500px;" download><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal6" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Downloads for Resent 3.8</h2>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1LoqVm27Kzm8yTfo006ZfdVGU1FQNPuvs/view?usp=sharing" target=”_blank” class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+                <br>
+                <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.8/Resent_3.8.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+                <br>
+                <a href="/clients/1.8/Resent_3.8.html" class="card__cta cta" style="margin-right: 500px;" download><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal7" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Downloads for Eaglercraft 1.8</h2>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1QBl9gavJJGcWjVv4rBcqBVkHIZtzvHy0/view?usp=sharing" target=”_blank” class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-google-drive"></i>&nbsp Google Drive</a>
+                <br>
+                <a href="https://raw.githubusercontent.com/rimmvb/eaglercrack/main/clients/1.8/EaglercraftX.html" target="_blank" class="card__cta cta" style="margin-right: 500px;"><i class="fa-brands fa-github"></i>&nbsp Github</a>
+                <br>
+                <a href="/clients/1.8/EaglercraftX.html" class="card__cta cta" style="margin-right: 500px;" download><i class="fa-solid fa-download"></i>    &nbsp Eaglercrack</a>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+<!--End Modals-->
+
+    <script>
+       var datamap = new Map([
+    [document.getElementById("myBtn1"), document.getElementById("myModal1")],
+    [document.getElementById("myBtn2"), document.getElementById("myModal2")],
+    [document.getElementById("myBtn3"), document.getElementById("myModal3")],
+    [document.getElementById("myBtn4"), document.getElementById("myModal4")],
+    [document.getElementById("myBtn5"), document.getElementById("myModal5")],
+    [document.getElementById("myBtn6"), document.getElementById("myModal6")],
+    [document.getElementById("myBtn7"), document.getElementById("myModal7")],
+]);
+
+datamap.forEach((value, key) => {
+    doModal(key, value);
+});
+
+function doModal(anchor, popupbox) {
+    var span = popupbox.getElementsByClassName("close")[0];
+
+    anchor.addEventListener("click", function (event) {
+        popupbox.style.display = "block";
+    });
+
+    span.addEventListener("click", function (event) {
+        popupbox.style.display = "none";
+    });
+
+    window.addEventListener("click", function (event) {
+        if (event.target == popupbox) {
+            popupbox.style.display = "none";
+        }
+    });
+}
+    </script>
+
 </body>
+
 </html>
