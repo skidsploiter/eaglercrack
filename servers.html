@@ -151,6 +151,7 @@
       checkServerStatus("", status20);
       checkServerStatus("mc.zyth.me", status21);
       checkServerStatus("", status22);
+      checkServerStatus("incog.invalid.work", status23);
 
       document.querySelector(".ip1").addEventListener("click", function () {
         copyIP("wss://zentic.cc");
@@ -217,6 +218,9 @@
       })
       document.querySelector(".ip22").addEventListener("click", function() {
         copyIP("wss://proxy.theludos.com/")
+      })
+      document.querySelector(".ip23").addEventListener("click", function() {
+        copyIP("wss://intelle.cloud/incog")
       })
     };
   </script>
@@ -364,9 +368,12 @@
       <div class="description description22">Proxy to join cracked java servers</div>
       <div class="ip ip22" onclick="copyIP()">Copy IP</div>
     </div>
-
-
-
+    <div class="box box23">
+      <div class="title title3">IncogMC</div>
+      <div class="status status23"></div>
+      <div class="description description23">Proxy to join cracked java servers</div>
+      <div class="ip ip23" onclick="copyIP()">Copy IP</div>
+    </div>
 
 
   </div>
